@@ -15,12 +15,14 @@ Machine translation on the language dataset
 
 
 ### Dataset
-The dataset consists of the large number of tab-delimited bilingual sentence pairs.
+The dataset consists of the large number of tab-delimited bilingual sentence pairs in various languages.
+
 - Download the dataset from - http://www.manythings.org/anki/
 
 
 ### Project Structure
 
+- ***data:*** This folder contains the dataset on which the model is trained.
 - ***static:*** This folder contains the static content such as images (accuracy and validation graphs) etc.
 - ***machine-translation-encoder-decoder-model.ipynb:*** Ipython notebook for machine translation using encoder-decoder sequence to sequence architecture. This model is overfitting the data. Please refer to the corresponding performance graph for reference.
 
