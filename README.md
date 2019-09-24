@@ -25,6 +25,7 @@ The dataset consists of the large number of tab-delimited bilingual sentence pai
 - ***data:*** This folder contains the dataset on which the model is trained.
 - ***static:*** This folder contains the static content such as images (accuracy and validation graphs) etc.
 - ***machine-translation-encoder-decoder-model.ipynb:*** Ipython notebook for machine translation using encoder-decoder sequence to sequence architecture. This model is overfitting the data. Please refer to the corresponding performance graph for reference.
+- ***machine-translation-attention.ipynb:*** Machine translation (from english to hindi) using attention model. This model also overfitting the data and refer to the corresponding performance graph below.
 
 ### Performance graphs
 
@@ -34,3 +35,8 @@ The dataset consists of the large number of tab-delimited bilingual sentence pai
 
 ![Accuracy](https://github.com/agoel41/machine-translation/blob/master/static/acc_machine_translation_lstm.png) ![Loss](https://github.com/agoel41/machine-translation/blob/master/static/loss_machine_translation_lstm.png)
 
+2. Performance graph for training a model using encoder-decoder with attention architecture and with pre-trained embeddings of 100 dimensions.
+   - machine-translation-attention.ipynb
+   - This model is overfitting the data
+   
+![Accuracy](https://github.com/agoel41/machine-translation/blob/master/static/acc_machine_translation_attention.png) ![Loss](https://github.com/agoel41/machine-translation/blob/master/static/loss_machine_translation_attention.png)
